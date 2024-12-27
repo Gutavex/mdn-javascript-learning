@@ -1,0 +1,12 @@
+Diferentes tipos de seletores
+Há muitos tipos diferentes de seletores. Abaixo, nós mostramos apenas os seletores de elementos, que selecionam todos os elementos de um determinado tipo nos documentos HTML. Mas nós podemos fazer seleções mais específicas que essas. Aqui estão alguns dos tipos mais comuns de seletores:
+
+| Nome do seletor | O que ele seleciona | Exemplo |
+|-----------------|---------------------|---------|
+| Seletor de elemento (às vezes, chamado tag ou seletor de tipo) | Todos os elementos HTML de determinado tipo. | p Seleciona <p> |
+| Seletor de ID | O elemento na página com o ID específicado. Em uma determinada página HTML, é uma boa prática usar um elemento por ID (e claro, um ID por elemento) mesmo que seja permitido usar o mesmo ID para vários elementos. | #my-id Seleciona <p id="my-id"> ou <a id="my-id"> |
+| Seletor de classe | O(s) elemento(s) na página com a classe específicada (várias instâncias de classe podem aparecer em uma página). | .my-class Seleciona <p class="my-class"> e <a class="my-class"> |
+| Seletor de atributo | O(s) elemento(s) na página com o atributo especificado. | img[src] Seleciona <img src="myimage.png"> mas não <img> |
+| Seletor de pseudo-classe | O(s) elemento(s) específicado(s), mas somente quando estiver no estado especificado. Ex.: com o mouse sobre ele. | a:hover Seleciona <a>, mas somente quando o mouse está em cima do link. |
+
+Há muito mais seletores para explorar e você pode achar uma lista mais detalhada em nosso Guia de seletores.
